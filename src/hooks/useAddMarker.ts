@@ -12,7 +12,7 @@ export default function useAddMarker({ markers, setMarkers, addMarkerToFirestore
     if (e.latLng) {
       const latLng = e.latLng;
       const newMarker: MarkerType = {
-        id: +(Math.random() *  Date.now()).toFixed(0),
+        id: (Math.random() *  Date.now()).toFixed(0),
         markerNumber: markers.length === 0 ? 1 : Math.max(...markers.map(m => m.markerNumber)) + 1,
         time: Date.now(),
         position: { lat: latLng.lat(), lng: latLng.lng() }
