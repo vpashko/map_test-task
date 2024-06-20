@@ -3,7 +3,7 @@
    Implemented with React, Typescript and Firebase
 
    Link to Deployed Version: 
-   - [DEMO LINK] (https://map-test-task-gggd1uh1b-vlads-projects-8685c474.vercel.app/)
+   - [DEMO LINK](https://map-test-task-gggd1uh1b-vlads-projects-8685c474.vercel.app/)
 
    Run `npm run dev` to run project on the localhost
 
